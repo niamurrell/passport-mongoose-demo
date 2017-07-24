@@ -4,7 +4,7 @@ This template sets up the barebones structure of a site sign up & login using [P
 
 ## Installation
 
-1. `git clone`
+1. `git clone https://github.com/niamurrell/passport-mongoose-demo.git`
 2. `cd passport-mongoose-demo`
 3. Download dependencies with `yarn`
 4. `node app.js`
