@@ -12,7 +12,7 @@ mongoose.connect("mongodb://localhost/auth-demo", {useMongoClient: true});
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(require("express-session")({
-  secret: "BOLLOCKS!",
+  secret: "secret phrase for security",
   resave: false,
   saveUninitialized: false
 }));
